@@ -68,6 +68,6 @@ with app.app_context():
                     end_date=datetime.datetime(2024, 2, 1),
                     employee=e2,
                     project=p2)
-
+                    
     db.session.add_all([a1, a2, a3])
     db.session.commit()
